@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bell, Search, Moon, Sun, Plus } from 'lucide-react';
+import { Bell, Search, Moon, Plus } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 
 const Header: React.FC = () => {

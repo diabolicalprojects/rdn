@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3caff6;
+  --color-background-light: #f5f7f8;
+  --color-background-dark: #0f172a;
+  --color-card-dark: #1e293b;
+  
+  --font-display: "Inter", sans-serif;
+  
+  --radius-default: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  
+  --animate-spin-slow: spin 3s linear infinite;
+}
 
 @layer base {
   body {
